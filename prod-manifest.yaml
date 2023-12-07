@@ -69,7 +69,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.global-static-ip-name: prod-stedi-bam-public # This IP has not been created yet - need to create first
     networking.gke.io/managed-certificates: prod-stedi-bam-certificate
-    # kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.allow-http: "false"
 spec:
   rules:
   - http:
